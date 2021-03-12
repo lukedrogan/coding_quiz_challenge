@@ -16,17 +16,35 @@
   border: 2px solid black;
   border-radius: 10px;
   background-color: #98c5e9;
+  display: flex;
+  justify-content: center;
+
 }
 
 h1 {
+  font-size: 1.5em;
   margin-top: 20px;
   text-align: center;
+  text-decoration: underline;
 }
 
 p { 
   margin-top: 20px;
-
   text-align: center;
+}
+
+#startButton {
+  justify-content: center;
+  margin-top: 50px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+  box-shadow: black;
+  border-radius: 5px;
+  background-color: lightgrey;
+  display: inline-block;
+  align-items: flex-start;
+  margin-left: 140px;
 }
 
 nav a {
@@ -40,3 +58,4 @@ nav div {
   margin-top: 20px;
   margin-right: 20px;
 }
+
