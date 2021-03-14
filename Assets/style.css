@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-#quiz-container {
+#quizContainer {
   position: absolute;
   top: 10%;
   left: 30%;
@@ -18,6 +18,7 @@
   background-color: #98c5e9;
   display: flex;
   justify-content: center;
+  color: black
 
 }
 
@@ -59,3 +60,14 @@ nav div {
   margin-right: 20px;
 }
 
+li {
+  background-color: yellow;
+  margin-top: 10px;
+  padding: 5px 15px;
+  width: 400px;
+  height: 80px;
+  font-size: 18px;
+  color: black;
+  border-radius: 10px;
+  list-style: none;
+}
