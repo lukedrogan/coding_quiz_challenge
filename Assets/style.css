@@ -132,3 +132,7 @@ input {
   width: 50%;
   border: 1px solid lightgray;
 }
+
+#questions h3 {
+  margin-top: 20px
+}
