@@ -8,29 +8,44 @@ Create an Event Listener for the button, which starts a countdown timer
 
 var quizArray = [
     {
-        title: "Question 1",
-        choices: ["a", "b", "c", "d"],
-        answer: "a"
+        title: "What are variables used for in JavaScript?",
+        choices: ["For storing or holding data.", 
+        "For changing a value's data type.", 
+        "For changing language settings.", 
+        "For doing arithmetic in our code."],
+        answer: "For storing or holding data."
     },
     {
-        title: "Question 2",
-        choices: ["a", "b", "c", "d"],
-        answer: "a"
+        title: "Which of the following is an example of a single line comment?",
+        choices: ["console.log()", 
+        "console.log('Is this a comment?');",
+        "//Is this a comment?", 
+        "'Is this a comment?'"],
+        answer: "//Is this a comment?"
     },
     {
-        title: "Question 3",
-        choices: ["a", "b", "c", "d"],
-        answer: "a"
+        title: "What is the correct way to call the random method on the Math global object?",
+        choices: ["Math(random)", 
+        "math.random()", 
+        "random.Math()", 
+        "Math.random()"],
+        answer: "Math.random()"
     },
     {
-        title: "Question 4",
-        choices: ["a", "b", "c", "d"],
-        answer: "a"
+        title: "What is string interpolation?",
+        choices: ["Joining multiple strings together using operators like +.", 
+        "Changing the value of a variable.", 
+        "Printing a string to the console.", 
+        "Using template literals to embed variables into strings."],
+        answer: "Using template literals to embed variables into strings."
     },
     {
-        title: "Question 5",
-        choices: ["a", "b", "c", "d"],
-        answer: "a"
+        title: "What is string concatenation?",
+        choices: ["When you print a string to the console.", 
+        "When you assign a string to a variable.", 
+        "When you join strings together.", 
+        "When you change a variable's value."],
+        answer: "When you join strings together."
     },
 ];
 
